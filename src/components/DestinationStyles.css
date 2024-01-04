@@ -9,11 +9,21 @@
 
 .des-slogan {
   text-align: center;
+  /* width: 500px; */
+  /* margin: 0 auto; */
 }
 
 .first-des {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  margin-top: 4.5rem;
+}
+
+.first-des-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+
   justify-content: space-between;
   margin-top: 4.5rem;
 }
@@ -24,7 +34,17 @@
   font-size: 1.1rem;
 }
 
+.des-text2 {
+  text-align: end;
+  width: 45%;
+  font-size: 1.1rem;
+}
+
 .das-text h2 {
+  padding-bottom: 1rem;
+}
+
+.das-text2 h2 {
   padding-bottom: 1rem;
 }
 
@@ -66,7 +86,18 @@
     margin-top: 2.5rem;
   }
 
+  .first-des-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 2.5rem;
+  }
+
   .des-text {
+    width: 100%;
+    text-align: center;
+  }
+
+  .des-text2 {
     width: 100%;
     text-align: center;
   }
