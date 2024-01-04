@@ -1,15 +1,21 @@
+import Mountain1 from "../assets/mount1.jpg";
+import Mountain2 from "../assets/mount2.jpg";
+import Mountain3 from "../assets/mount3.jpg";
+import Mountain4 from "../assets/mount4.jpg";
+import "./DestinationStyles.css";
+
 const Destination = () => {
   return (
     <div className="destination">
       <h1>Popular Destinations</h1>
-      <p>
+      <p className="des-slogan">
         Discover your dream destination with us! Explore breathtaking landscapes
         and immerse yourself in vibrant cultures.
       </p>
 
       <div className="first-des">
         <div className="des-text">
-          <h2>Taal Volcano, Batangas</h2>
+          <h2 className="mount-name">Taal Volcano, Batangas</h2>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias
             accusamus quos, culpa eveniet omnis est perspiciatis sapiente
@@ -21,7 +27,10 @@ const Destination = () => {
           </p>
         </div>
 
-        <div className="image"></div>
+        <div className="image">
+          <img src={Mountain1} alt="img" />
+          <img src={Mountain2} alt="img" />
+        </div>
       </div>
     </div>
   );
