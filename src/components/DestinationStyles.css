@@ -5,12 +5,13 @@
 .destination h1 {
   font-size: 3rem;
   text-align: center;
+  padding-bottom: 6px;
 }
 
 .des-slogan {
   text-align: center;
-  /* width: 500px; */
-  /* margin: 0 auto; */
+  width: 600px;
+  margin: 0 auto;
 }
 
 .first-des {
@@ -23,7 +24,7 @@
 .first-des-reverse {
   display: flex;
   flex-direction: row-reverse;
-
+  align-items: center;
   justify-content: space-between;
   margin-top: 4.5rem;
 }
