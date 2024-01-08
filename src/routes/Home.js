@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar"
 import Homehero from "../assets/home-hero.jpg"
 import Destination from "../components/Destination";
 import Trip from "../components/Trip";
+import Footer from "../components/Footer"
 
 
 
@@ -14,6 +15,7 @@ function Home() {
 
       <Destination />
       <Trip />
+      <Footer />
 
     </>
   );
