@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar"
 import Hero from "../components/Hero";
+import Footer from "../components/Footer";
 
 
 function Contact() {
@@ -11,7 +12,9 @@ function Contact() {
         cName="hero-mid"
         // heroImg={AboutImg}
         title="Contact" btnClass="hide" />
+      <Footer />
     </>
+
   );
 }
 
