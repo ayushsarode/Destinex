@@ -1,6 +1,9 @@
 import Navbar from "../components/Navbar"
 import Hero from "../components/Hero";
-import AboutImg from "../assets/img.jpg"
+import Footer from "../components/Footer";
+import Trip from "../components/Trip";
+import ServiceImg from "../assets/service.jpg"
+
 
 function Service() {
   return (
@@ -10,7 +13,11 @@ function Service() {
       <Hero
         cName="hero-mid"
         // heroImg={AboutImg}
-        title="Service" btnClass="hide" />
+        title="Service" btnClass="hide"
+        heroImg={ServiceImg} />
+
+      <Trip />
+      <Footer />
     </>
   );
 }

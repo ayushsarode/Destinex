@@ -52,6 +52,7 @@ function Footer() {
           <a href="/">License</a>
         </div>
       </div>
+      <p className="author">Made with 💖 By Ayush</p>
     </div>
   );
 }

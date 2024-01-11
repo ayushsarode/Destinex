@@ -1,5 +1,5 @@
 .footer {
-  padding: 4rem 6rem;
+  padding: 4rem 6rem 1.5rem;
   background: #000;
   color: #fff;
   text-align: center;
@@ -50,6 +50,28 @@
   color: #fafafa;
   padding-bottom: 0.4rem;
   font-size: 1.1rem;
+}
+
+.author {
+  margin-top: 10px;
+}
+
+.author {
+  transition: color 0.3s; /* Add a smooth color transition effect */
+}
+
+.author:hover {
+  color: red; /* Change the text color when hovering */
+  cursor: pointer; /* Change the cursor to indicate interactivity */
+}
+
+.author:hover::before {
+  content: "ayush sarodey"; /* Display additional text before the original text */
+  margin-top: -1.5em;
+  margin-left: 1em;
+  background-color: white;
+  padding: 0.2em;
+  border: 1px solid black;
 }
 
 @media screen and (max-width: 850px) {
