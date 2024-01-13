@@ -2,6 +2,10 @@
 
 Welcome to Destinex, a Dummy Travel Web App built with React.js and React Router DOM.
 
+<div align="center">
+<img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fayushsarode%2FDestinex&label=visitors&countColor=%2337d67a&style=for-the-badge&labelStyle=upper" />
+</div>
+
 ## Project Overview
 
 Destinex is a simple web application created to showcase the basics of React.js and React Router DOM. It serves as a dummy travel platform where users can explore various destinations.
