@@ -67,10 +67,15 @@
 
   .bottom div {
     width: 50%;
+    word-wrap: break-word;
+  }
+
+  .bottom {
+    margin-right: 10px;
   }
 
   .author {
-    padding-right: 3rem;
+    padding-right: 3.2rem;
     padding-top: 2rem;
   }
 

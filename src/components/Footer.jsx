@@ -42,7 +42,9 @@ function Footer() {
         <div>
           <h4>Help</h4>
           <a href="/">Support</a>
-          <a href="/">Troubleshooting</a>
+          <a href="/">
+            Trouble- <br /> shooting
+          </a>
           <a href="/">Contact Us</a>
         </div>
         <div>
