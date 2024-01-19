@@ -1,4 +1,4 @@
-# Destinex - Dummy Travel Web App
+# Destinex - Travel Web App
 
 Welcome to Destinex, a Dummy Travel Web App built with React.js and React Router DOM.
 
