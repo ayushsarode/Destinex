@@ -24,10 +24,6 @@ Follow these steps to get a copy of the project on your local machine:
 3. Install dependencies: `npm install`
 4. Run the application: `npm start`
 
-## Future Enhancements
-
-- **Email Sending Feature**: Implementing a feature to send emails for travel-related information or booking confirmations.
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/ayushsarode/Destinex/blob/main/LICENSE) file for details.
